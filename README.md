@@ -11,12 +11,12 @@ Please follow below steps for success intallation of the application:
 
 
 - Download/Clone the code from https://github.com/pradeep-rajapaksha/library-management-system.git
-- Run `composer install` to download the laravel dependencies
+- Run `composer install` (at root dir: of the application) to download the laravel dependencies
 - Update database connction in `.env` file
 - Run `php artisan migrate --seed` on the terminal (at root dir: of the application) to run db migrating and seeding functions
-- Run `php artisan serve` to start the server on http://127.0.0.1:8000/
+- Run `php artisan serve` (at root dir: of the application) to start the server on http://127.0.0.1:8000/
 - Use email: `admin@library.com` and password: `password` to login to the system. Or
-- Follow registration form (temp:) to create new admin user at http://127.0.0.1:8000/register 
+- Follow registration form (temp:) to create a new admin user at http://127.0.0.1:8000/register 
 - Congrats, you are good to play.
 
 
